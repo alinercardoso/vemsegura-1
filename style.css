@@ -1,0 +1,810 @@
+/* Gerais */
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p,
+li {
+    color: #444;
+    font-size: 14px;
+}
+
+
+
+
+
+/* Barra de Navegação */
+
+header,
+.navbar {
+    background-color: #ae55f2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    margin-left: 20px;
+    max-width: 60px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+#navbar-links a {
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #ae55f2 !important;
+    font-weight: 400;
+}
+
+
+
+
+
+/*Slider*/
+
+.container-fluid {
+    padding: 0;
+}
+
+#mainSlider .carousel-inner,
+#mainSlider .carousel-item {
+    height: 97vh;
+}
+
+#mainSlider .carousel-caption {
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p {
+    font-size: 22px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.main-btn {
+    background-color: #ae55f2;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: solid 3px transparent;
+    transition: .5s;
+}
+
+.main-btn:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: transparent;
+    border-color: #ae55f2;
+}
+
+.carousel-indicators .active {
+    background-color: #ae55f2;
+}
+
+
+/* Sobre o Vem Segura */
+
+#about-area {
+    background-color: #f9f9f9;
+}
+
+.main-title {
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid #ae55f2;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+.about-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #444;
+    font-weight: bold;
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list {
+    line-height: 30px;
+}
+
+#about-list i {
+    color: #ae55f2;
+    margin-right: 15px;
+}
+
+/* SERVIÇOS */
+
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i,
+.service-box h4 {
+    transition: .5s;
+}
+
+.service-box h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-box i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.service-box:hover>i,
+.service-box:hover>h4 {
+    color: #ae55f2;
+}
+
+/* Violência contra a mulher */
+
+.circle-box div {
+    padding: 0 40px;
+}
+
+.progressbar-text {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#data-area p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/*TIME*/
+
+.card-body {
+    text-align: center;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+/*COLABORAÇÃO*/
+
+#apply-area {
+    height: 500px;
+}
+
+#apply-area .container-fluid,
+#apply-area .row {
+    height: 100%;
+}
+
+#apply-area .apply-box {
+    text-align: center;
+    padding: 70px 50px;
+}
+
+#pattern-img h4,
+#pattern-img p {
+    color: #ffffff;
+
+}
+
+#pattern-img {
+    height: 100%;
+}
+
+#pattern-img h4 {
+    margin-top: 8%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+#pattern-img p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#apply-btn {
+    display: block;
+    height: auto;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: transparent;
+    border-color: #ffffff;
+}
+
+#apply-btn:hover {
+    background-color: #ae55f2;
+    border-color: #ae55f2;
+}
+
+/*CONTATO RAPIDO */
+
+#news-area {
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#news-area p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#email-input {
+    display: inline;
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #ae55f2;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;
+
+}
+
+#email-input:focus {
+    border: none;
+    outline: 0;
+
+}
+
+#news-btn {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #ae55f2;
+    background-color: #ae55f2;
+    text-transform: uppercase;
+    color: #ffffff;
+    height: 40px;
+    padding: 0 30px;
+    margin-left: -120px;
+    position: absolute;
+    transition: .5s;
+}
+
+#news-btn:hover {
+    background-color: #ffffff;
+    color: #ae55f2;
+}
+
+/*CALL TO ACTION*/
+
+#call-area {
+    background-color: #ae55f2;
+    text-transform: uppercase;
+}
+
+#call-area .container {
+    padding: 20px 100px;
+}
+
+#call-area .row {
+    display: block;
+    text-align: center;
+}
+
+#call-area p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    width: auto;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    display: inline;
+    height: 60px;
+    line-height: 60px;
+}
+
+#call-area #call-btn {
+    background-color: #ffffff;
+    color: #ae55f2;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 30px;
+    width: auto;
+    letter-spacing: 1px;
+}
+
+#call-btn:focus {
+    border: none;
+    outline: none;
+}
+
+
+/*FOOTER*/
+
+#contact-area {
+    text-align: center;
+}
+
+.contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #ae55f2;
+}
+
+.contact-box i {
+    color: #444;
+    border: 1px solid #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-box i:hover {
+    color: #ae55f2;
+}
+
+
+
+.contact-box p {
+    font-size: 16px;
+}
+
+.contact-title {
+    font-weight: bold;
+    color: #ae55f2;
+}
+
+.contact-box p:hover {
+    color: #ae55f2;
+}
+
+#msg-box p {
+    font-size: 22px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+#contact-form .main-btn {
+    width: 120px;
+    height: 50px;
+}
+
+#contact-form .main-btn:hover {
+    color: #ae55f2;
+}
+
+#contact-form .main-btn:focus {
+    outline: none;
+}
+
+/*COPYRIGHT*/
+
+#copy-area {
+    background-color: #f1f1f1;
+}
+
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p {
+    margin-bottom: 0;
+}
+
+#copy-area .container a {
+    color: #444;
+    text-decoration: none;
+}
+
+#copy-area .container a:hover {
+    color: #ae55f2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*RESPONSIVIDADE*/
+
+@media(max-width:768px) {
+
+    /*geral*/
+    .container {
+        padding: 20px 0;
+    }
+
+    /*slider*/
+
+    #mainSlider .corousel-inner,
+    #mainSlider .corousel-item {
+        height: auto;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 28px;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    /*area de sobre */
+
+    #about-area img {
+        margin-top: 100px;
+    }
+
+    /* data parallax */
+
+    .circle-box div {
+        padding: 0 10px;
+    }
+
+    #data-area p {
+        font-size: 16px;
+    }
+
+    /*TIME*/
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
+
+    /*Contato Rapido */
+
+    #news-area p {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #email-input {
+        width: 70%;
+    }
+
+    /*Chama para a ação*/
+
+    #call-area {
+        margin-top: 30px;
+    }
+
+    #call-area .container {
+        padding: 30px;
+    }
+
+    #call-area p,
+    #call-area #call-btn {
+        font-size: 14px;
+    }
+
+    /*Leis e Artigos*/
+
+    #services-area .main-title {
+        font-size: 36px;
+    }
+
+}
+
+@media(max-width:425px) {
+
+    /*slider*/
+
+    #mainSlider .carousel-inner,
+    #mainSlider .carousel-item {
+        height: 100%;
+    }
+
+    #mainSlider {
+        margin-top: 60px;
+    }
+
+
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+
+    #mainSlider .carousel-caption p {
+        display: none;
+    }
+
+    .carousel-caption .main-btn {
+        font-size: 10px;
+        height: 30px;
+    }
+
+    /*SOBRE O VEM SEGURA*/
+
+
+    .main-title {
+        font-size: 25px;
+    }
+
+    #about-area img {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    #about-area {
+        text-align: center;
+    }
+
+    /*DIFERENCIAIS*/
+
+    #services-area .main-title {
+        font-size: 27px;
+    }
+
+    #services-area h4 {
+        font-size: 20px;
+    }
+
+    #services-area p {
+        font-size: 13px;
+    }
+
+    /*DATA*/
+
+    .circle-box {
+        width: 50%;
+    }
+
+    /*TIME*/
+
+    #time-area .col-md-4 {
+        width: 50%;
+    }
+
+    /*news area */
+
+    #news-area .main-title {
+        font-size: 24px;
+    }
+
+    #news-area p {
+        font-size: 16px;
+    }
+
+    #email-input {
+        width: 90%;
+    }
+
+
+    /*CONTATO*/
+
+    .contact-box {
+        border: none;
+        margin-bottom: 0;
+    }
+
+}
+
+@media(max-width:320px) {
+    #pattern-img h4 {
+        font-size: 24px;
+    }
+
+    #pattern-img p {
+        font-size: 14px;
+    }
+
+    .form-denuncia h1 {
+        font-size: 25px !important;
+    }
+
+    #services-area .main-title {
+        font-size: 22px;
+    }
+
+    #data-area p {
+        font-size: 13px;
+    }
+}
+
+@media(min-width:426px) and (max-width:767px) {
+
+    #mainSlider .carousel-inner,
+    #mainSlider .carousel-item {
+        height: 100%;
+    }
+
+    #mainSlider {
+        margin-top: 60px;
+    }
+
+    .carousel-caption .main-btn {
+        font-size: 10px;
+        height: 30px;
+    }
+
+    .carousel-caption p {
+        display: none;
+    }
+
+    #about-area .main-title {
+        font-size: 27px;
+    }
+
+    #about-area .img-fluid {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    #services-area .main-title {
+        font-size: 26px;
+    }
+
+    .circle-box {
+        width: 50%;
+    }
+
+    #time-area .col-md-4 {
+        width: 50%;
+    }
+
+    #pattern-img h4 {
+        font-size: 24px;
+    }
+
+    #pattern-img p {
+        font-size: 14px;
+    }
+
+    #news-area .main-title {
+        font-size: 28px;
+    }
+
+    #contact-area .main-title {
+        font-size: 28px;
+    }
+
+    .contact-box {
+        border-bottom: none;
+    }
+}
+
+
+/*FORMULARIO DENUNCIA*/
+
+.form-denuncia {
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0 10px 30px 0px rgba(0, 0, 0, .1);
+    padding: 30px;
+}
+
+.form-denuncia .title {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 3em;
+    line-height: 48px;
+    padding-bottom: 20px;
+    color: #5543ca;
+    background: linear-gradient(to right, #f4524d 0%, #5543ca 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-form .form-field {
+    position: relative;
+    margin: 32px 0;
+}
+
+.contact-form .input-text {
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #5543ca;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.contact-form .input-text:focus+.label,
+.contact-form .input-text.not-empty+.label {
+    transform: translateY(-24px);
+}
+
+.contact-form .input-text:focus {
+    outline: none;
+}
+
+.contact-form .label {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #5543ca;
+    cursor: text;
+    text-transform: uppercase;
+    transition: transform 0.2s ease-in-out;
+}
+
+.contact-form .submit-btn {
+    display: inline-block;
+    background-image: linear-gradient(125deg, #a72879, #064497);
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+}
